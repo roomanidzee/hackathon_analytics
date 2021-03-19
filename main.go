@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-    var start = 100000
+        var start = 100000
 	var end = 30000000
 
 	
@@ -25,7 +25,7 @@ func main() {
 
 	for i := start; i < end; i+=start {
 
-        var sbR strings.Builder
+                var sbR strings.Builder
 
 		sbR.WriteString("Loading to Redis ")
 		sbR.WriteString(strconv.Itoa(i))
